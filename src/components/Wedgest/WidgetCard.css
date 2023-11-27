@@ -12,6 +12,40 @@
   padding: 1% 3%;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  animation: changeColor 20s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: rgb(30, 42, 62);
+  }
+  12.5% {
+    background-color: #da9408;
+  }
+  25% {
+    background-color: #08dad7;
+  }
+  37.5% {
+    background-color: #cc578e;
+  }
+  50% {
+    background-color: rgb(184, 28, 203);
+  }
+  62.5% {
+    background-color: rgb(232, 28, 124);
+  }
+  75% {
+    background-color: #ff80bf;
+  }
+  75.4% {
+    background: red;
+  }
+  87.5% {
+    background-color: #a6e22e;
+  }
+  100% {
+    background-color: rgb(30, 42, 62);
+  }
 }
 
 .widgetcard-body:hover {
